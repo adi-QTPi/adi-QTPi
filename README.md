@@ -1,7 +1,7 @@
-# Me? I am...
+# <img src="assets/karma.gif" width="150" height="60" /> Says Hi !
+
 A Developer in **SDSLabs**<br>An Undergrad Student in **IIT Roorkee**<br>Learning new stuff every day<br>A Part time [Poet...](https://yourkavi.wordpress.com)
 
-<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwifflegif.com%2Fgifs%2F97073-animation-cool-pics-gif&psig=AOvVaw2WU5TZDJmRTp5NfZY6-vLa&ust=1758348526435000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNDBguyU5I8DFQAAAAAdAAAAABAy](https://25.media.tumblr.com/ae5548d02950cc773621a7494d8d4d84/tumblr_ml5ijmOnC61rbkmdxo1_500.gif" width="40" height="40" />
 
 # Judge Me (^_~)
 ![GitHub Snake Dark](https://raw.githubusercontent.com/adi-QTPi/adi-QTPi/output/github-contribution-grid-snake-dark.svg)
