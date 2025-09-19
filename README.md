@@ -1,6 +1,9 @@
 # <img src="assets/karma.gif" width="150" height="60" /> Says Hi !
 
-A Developer in **SDSLabs**<br>An Undergrad Student in **IIT Roorkee**<br>Learning new stuff every day<br>A Part time [Poet...](https://yourkavi.wordpress.com)
+Developer in **SDSLabs**<br>
+Undergrad Student in **IIT Roorkee**<br>
+Learning new stuff every day<br>
+Part time [Poet...](https://yourkavi.wordpress.com)
 
 
 # Judge Me (^_~)
