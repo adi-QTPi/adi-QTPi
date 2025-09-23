@@ -1,4 +1,4 @@
-# <img src="assets/karma.gif" width="150" height="60" /> `Says` `Hi` `!`
+# <img src="assets/karma.gif" width="150" height="60" /> `Says Hi !`
 
 *Developer* in **SDSLabs**<br>
 Undergrad *Student* in **IIT Roorkee**<br>
