@@ -4,7 +4,9 @@
 
 
 # Judge Me (^_~)
-![GitHub Snake Dark](https://raw.githubusercontent.com/adi-QTPi/adi-QTPi/output/github-contribution-grid-snake-dark.svg)
-
 <!-- 3D Isometric Contribution Grid -->
-![3D Contribution Graph](./profile-3d-contrib/profile-night-rainbow.svg)
+![3D Contribution Graph](./profile-3d-contrib/profile-night-green.svg)
+
+<!-- snake animation, kept for later
+![GitHub Snake Dark](https://raw.githubusercontent.com/adi-QTPi/adi-QTPi/output/github-contribution-grid-snake-dark.svg)
+-->
