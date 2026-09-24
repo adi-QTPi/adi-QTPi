@@ -7,10 +7,13 @@ on:
   # allows to manually run the job at any time
   workflow_dispatch:
   
-  # run on every push on the master branch
+  # run on every push on the main branch, skip pushes that only touch generated files
   push:
     branches:
     - main
+    paths-ignore:
+    - README.md
+    - profile-3d-contrib/**
     
   
 
@@ -22,6 +25,34 @@ jobs:
     timeout-minutes: 5
     
     steps:
+      - name: checkout repository
+        uses: actions/checkout@v4
+
+      # rebuilds the typing svg url in README.md from typing.txt
+      - name: regenerate typing svg from typing.txt
+        run: node scripts/build-typing-svg.mjs
+
+      # builds the isometric 3D contribution graph, writes profile-3d-contrib/*.svg
+      - name: generate profile-3d-contrib
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      # commits whatever the two generators changed, the paths-ignore entries above
+      # keep this commit from re-triggering the workflow
+      - name: commit generated files
+        run: |
+          git add README.md profile-3d-contrib
+          if git diff --cached --quiet; then
+            echo "nothing to commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: regenerate typing svg and 3d contribution graph"
+          git push
+
       # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
       - name: generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3

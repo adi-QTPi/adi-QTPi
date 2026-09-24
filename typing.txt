@@ -1,0 +1,25 @@
+# Single source for the typing animation in README.md.
+#
+# Edit the settings and the lines, then run:  node scripts/build-typing-svg.mjs
+# Push to main and the GitHub workflow runs it for you.
+#
+# Rules:
+#   - "key: value" lines before the first content line are settings.
+#   - "#" starts a comment, blank lines are ignored, order = display order.
+#   - Comment a line out to hide it without deleting it.
+
+font: Comic Sans MS
+size: 18
+color: AE0001
+duration: 4000
+pause: 1000
+width: 340
+vCenter: true
+
+# ---- lines shown in the animation, top to bottom ----
+is my alias.
+is a Developer in SDSLabs.
+is an Undergrad at IIT Roorkee.
+likes DevOps and Infra.
+is a Marvel fan.
+is a Potterhead.
